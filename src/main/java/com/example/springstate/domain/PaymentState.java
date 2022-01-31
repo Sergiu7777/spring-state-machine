@@ -2,8 +2,8 @@ package com.example.springstate.domain;
 
 public enum PaymentState {
     NEW,
-    PRE_AUTH,
+    PRE_AUTHORIZE,
     PRE_AUTH_ERROR,
-    AUTH,
+    AUTHORIZE,
     AUTH_ERROR
 }

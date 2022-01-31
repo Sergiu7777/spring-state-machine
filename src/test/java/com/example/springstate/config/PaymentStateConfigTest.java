@@ -30,6 +30,6 @@ class PaymentStateConfigTest {
 
         machine.sendEvent(PaymentEvent.PRE_AUTH_APPROVED);
         System.out.println(machine.getState().toString());
-        assertEquals(machine.getState().getId(), PaymentState.PRE_AUTH);
+        assertEquals(machine.getState().getId(), PaymentState.PRE_AUTHORIZE);
     }
 }

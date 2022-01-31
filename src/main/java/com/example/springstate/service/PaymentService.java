@@ -12,6 +12,4 @@ public interface PaymentService {
     StateMachine<PaymentState, PaymentEvent> preAuth(Long paymentId) throws Exception;
 
     StateMachine<PaymentState, PaymentEvent> authorizePayment(Long paymentId) throws Exception;
-
-    StateMachine<PaymentState, PaymentEvent> declineAuth(Long paymentId) throws Exception;
 }
